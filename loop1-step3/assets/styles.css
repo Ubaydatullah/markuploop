@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: Roboto, sans-serif;
+ }
+ 
+ body {
+  background-color: turquoise;
+  background-size: cover;
+ }
+
+  
+ .container {
+  margin-top: 4rem;
+  background:white;
+  text-align: center;
+  width: 40%;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 3px;
+  background-image: url("img/bicycle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-position-y: 9rem;
+ }
+
+ h1 {
+  text-align: start;
+  margin-top: 20px;
+  margin-left: 48px;
+  font-size: 20px;
+  font-weight: bold;
+  
+ }
+
+ .item {
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 700px;
+  max-height: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  }
+
+ .image {
+  margin-top: 20px;
+  margin-left: 235px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #f2f1f2;
+  background-color: white;
+  
+ }
+ .image:hover {
+  background-color: #eceaec;
+
+ }
+
+ p {
+ font-size: 0.8em;
+ margin-top: 10px;
+ margin-left: 5px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ grid-gap: 0.2rem;
+ font-weight: normal;
+ color: rgb(126, 126, 126);
+ font-family: Roboto, sans-serif;
+}
+
+.para {
+  font-size: 0.75em;
+  margin-left: 0px;
+  margin-right: 40px;
+  font-weight: bold;
+  color: rgb(144, 143, 143);
+}
+
+.para1 {
+font-weight: bold;
+font-size: 0.9em;
+color: rgb(70, 67, 67);
+}
+
+.price1 {
+  margin-bottom: 20px;
+  margin-left: 150px;
+  color: rgb(56, 56, 56);
+}
+
+.price2 {
+  margin-bottom: 20px;
+  margin-left: 170px;
+  color: rgb(56, 56, 56);
+}
+
+.price3 {
+  margin-bottom: 20px;
+  margin-left: 300px;
+  
+}
+
+.item2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1%;
+  margin-left: 45px;
+  
+  }
+
+  .item3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1%;
+    margin-left: 45px;
+    }
+
+    .item4 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 1%;
+      margin-left: 45px;
+      }
